@@ -1,6 +1,6 @@
-FROM mooo.tech/openjdk:8.171.11-r0
+FROM mooo.tech/openjdk:11.0.4_p4-r1
 
 MAINTAINER Youssef GHOUBACH <ghoubach.youssef@gmail.com>
 
 RUN apk add --update \
-    maven=3.5.4-r1
+    maven=3.6.1-r0
